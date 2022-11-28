@@ -1,16 +1,17 @@
 <?xml version="1.0"?>
 <package format="2">
   <name>pid</name>
-  <version>0.0.28</version>
-  <description>Launch a PID control node.</description>
+  <version>0.0.1</version>
+  <description>Based on the original pid package (URL: http://wiki.ros.org/pid) by Andy Zelenak.</description>
 
-  <maintainer email="andyz@utexas.edu">Andy Zelenak</maintainer>
+  <maintainer email="bognik3@gmail.com">Nikita Boguslavskii</maintainer>
 
   <license>BSD</license>
 
- <url type="website">http://wiki.ros.org/pid</url>
+ <url type="website">https://github.com/GOPHER-System-Intergration/gopher-kinova-pid</url>
 
- <author email="andyz@utexas.edu">Andy Zelenak</author>
+ <author email="bognik3@gmail.com">Nikita Boguslavskii</author>
+ <author>Andy Zelenak</author>
  <author>Paul Bouchier</author>
 
   <!-- Use buildtool_depend for build tool packages: -->
