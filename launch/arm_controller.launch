@@ -1,80 +1,80 @@
 <launch>
     <!-- 1, 2, 3, 4, 5, 6, 7 controllers -->
     <node name="controller" pkg="pid" type="controller" ns="joint_1" output="screen" >
-      <param name="Kp" value="4.0" />
+      <param name="Kp" value="3.5" />
       <param name="Ki" value="0.0" />
       <param name="Kd" value="0.0" />
-      <param name="upper_limit" value="10" />
+      <!-- <param name="upper_limit" value="10" />
       <param name="lower_limit" value="-10" />
-      <param name="windup_limit" value="10" />
-      <param name="max_loop_frequency" value="100.0" />
-      <param name="min_loop_frequency" value="100.0" />
+      <param name="windup_limit" value="10" /> -->
+      <param name="max_loop_frequency" value="1000.0" />
+      <param name="min_loop_frequency" value="800.0" />
     </node>
 
     <node name="controller" pkg="pid" type="controller" ns="joint_2" output="screen" >
-      <param name="Kp" value="4.5" />
+      <param name="Kp" value="4.0" />
       <param name="Ki" value="0.0" />
       <param name="Kd" value="0.0" />
-      <param name="upper_limit" value="10" />
+      <!-- <param name="upper_limit" value="10" />
       <param name="lower_limit" value="-10" />
-      <param name="windup_limit" value="10" />
-      <param name="max_loop_frequency" value="100.0" />
-      <param name="min_loop_frequency" value="100.0" />
+      <param name="windup_limit" value="10" /> -->
+      <param name="max_loop_frequency" value="1000.0" />
+      <param name="min_loop_frequency" value="800.0" />
     </node>
 
     <node name="controller" pkg="pid" type="controller" ns="joint_3" output="screen" >
       <param name="Kp" value="3.5" />
       <param name="Ki" value="0.0" />
       <param name="Kd" value="0.0" />
-      <param name="upper_limit" value="10" />
+      <!-- <param name="upper_limit" value="10" />
       <param name="lower_limit" value="-10" />
-      <param name="windup_limit" value="10" />
-      <param name="max_loop_frequency" value="100.0" />
-      <param name="min_loop_frequency" value="100.0" />
+      <param name="windup_limit" value="10" /> -->
+      <param name="max_loop_frequency" value="1000.0" />
+      <param name="min_loop_frequency" value="800.0" />
     </node>
 
     <node name="controller" pkg="pid" type="controller" ns="joint_4" output="screen" >
       <param name="Kp" value="4.5" />
       <param name="Ki" value="0.0" />
       <param name="Kd" value="0.0" />
-      <param name="upper_limit" value="10" />
+      <!-- <param name="upper_limit" value="10" />
       <param name="lower_limit" value="-10" />
-      <param name="windup_limit" value="10" />
-      <param name="max_loop_frequency" value="100.0" />
-      <param name="min_loop_frequency" value="100.0" />
+      <param name="windup_limit" value="10" /> -->
+      <param name="max_loop_frequency" value="1000.0" />
+      <param name="min_loop_frequency" value="800.0" />
     </node>
 
     <node name="controller" pkg="pid" type="controller" ns="joint_5" output="screen" >
       <param name="Kp" value="3.5" />
       <param name="Ki" value="0.0" />
       <param name="Kd" value="0.0" />
-      <param name="upper_limit" value="10" />
+      <!-- <param name="upper_limit" value="10" />
       <param name="lower_limit" value="-10" />
-      <param name="windup_limit" value="10" />
-      <param name="max_loop_frequency" value="100.0" />
-      <param name="min_loop_frequency" value="100.0" />
+      <param name="windup_limit" value="10" /> -->
+      <param name="max_loop_frequency" value="1000.0" />
+      <param name="min_loop_frequency" value="800.0" />
     </node>
 
     <node name="controller" pkg="pid" type="controller" ns="joint_6" output="screen" >
       <param name="Kp" value="5.0" />
       <param name="Ki" value="0.0" />
       <param name="Kd" value="0.0" />
-      <param name="upper_limit" value="10" />
+      <!-- <param name="upper_limit" value="10" />
       <param name="lower_limit" value="-10" />
-      <param name="windup_limit" value="10" />
-      <param name="max_loop_frequency" value="100.0" />
-      <param name="min_loop_frequency" value="100.0" />
+      <param name="windup_limit" value="10" /> -->
+      <param name="max_loop_frequency" value="1000.0" />
+      <param name="min_loop_frequency" value="800.0" />
     </node>
 
     <node name="controller" pkg="pid" type="controller" ns="joint_7" output="screen" >
       <param name="Kp" value="4.5" />
       <param name="Ki" value="0.0" />
       <param name="Kd" value="0.0" />
-      <param name="upper_limit" value="10" />
+      <!-- <param name="upper_limit" value="10" />
       <param name="lower_limit" value="-10" />
-      <param name="windup_limit" value="10" />
-      <param name="max_loop_frequency" value="100.0" />
-      <param name="min_loop_frequency" value="100.0" />
+      <param name="windup_limit" value="10" /> -->
+      <param name="max_loop_frequency" value="1000.0" />
+      <param name="min_loop_frequency" value="800.0" />
     </node>
 
     <!-- rqt_plot is a resource hog, so if you're seeing high CPU usage, don't launch it  -->
