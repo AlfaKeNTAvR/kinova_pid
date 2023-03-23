@@ -81,5 +81,7 @@
     <!-- <node name="rqt_plot" pkg="rqt_plot" type="rqt_plot"/>
 
     <node name="rqt_reconfigure" pkg="rqt_reconfigure" type="rqt_reconfigure" />  -->
-
+    	
+    <!-- Start node for PID control -->
+    <node pkg="kinova_positional_control" type="pid_joints_relative.py" name="pid_joints" output="screen"/>
 </launch>
